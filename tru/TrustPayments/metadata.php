@@ -31,7 +31,7 @@ $aModule = array(
         'en' => 'TRU TrustPayments Module'
     ),
     'thumbnail' => 'out/pictures/picture.png',
-    'version' => '1.0.46',
+    'version' => '1.0.47',
     'author' => 'customweb GmbH',
     'url' => 'https://www.customweb.com',
     'email' => 'info@customweb.com',

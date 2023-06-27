@@ -176,6 +176,8 @@ class Transaction extends \oxbase {
 class_exists(\Tru\TrustPayments\Application\Model\Transaction::class);			$transaction = oxNew(\Tru\TrustPayments\Application\Model\Transaction::class);
 			/* @var $transaction \Tru\TrustPayments\Application\Model\Transaction */
 			$transaction->create();
+		} else {
+			$transaction->updateFromSession();
 		}
 		return $transaction;
 	}
